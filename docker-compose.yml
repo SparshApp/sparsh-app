@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  sparsh-app:
+    container_name: sparsh-app
+    build:
+      context: ./app
+    command: npm start
+    environment:
+      NODE_ENV: production
+    ports:
+      - "8080:8080"
