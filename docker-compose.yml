@@ -3,6 +3,7 @@ version: "3.9"
 services:
   sparsh-app:
     container_name: sparsh-app
+    image: sparsh-app:latest
     build:
       context: ./app
     command: npm start
@@ -16,7 +17,8 @@ services:
           - app
 
   infra:
-    container_name: infra
+    container_name: app-infra
+    image: app-infra:latest
     build:
       context: ./infra
     networks:
