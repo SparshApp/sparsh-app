@@ -19,3 +19,11 @@ TODOs:
 - Cypress or Detox?: end-to-end testing
 - Storybook: design testing
 - React native debugger
+
+## Setup
+
+1. Run `python3 -m venv venv` to create a virtual environment
+
+1. Run `source venv/bin/activate` to activate the virtual environment
+
+1. Run `npm run eject` to generate the native code in ios and android folders

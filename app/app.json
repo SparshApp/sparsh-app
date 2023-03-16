@@ -1,7 +1,11 @@
 {
+  "name": "SparshApp",
+  "version": "1.0.0",
+  "description": "SparshApp",
+  "displayName": "SparshApp",
   "expo": {
-    "name": "sparsh-app",
-    "slug": "sparsh-app",
+    "name": "SparshApp",
+    "slug": "SparshApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/icons/icon.png",
