@@ -10,7 +10,7 @@ services:
     environment:
       NODE_ENV: production
     ports:
-      - "8080:8080"
+      - "8081:8081"
     networks:
       sparsh-network:
         aliases:
@@ -25,3 +25,8 @@ services:
       sparsh-network:
         aliases:
           - app-infra
+
+networks:
+  sparsh-network:
+    name: sparsh-network
+    driver: bridge
